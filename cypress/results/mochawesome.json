@@ -1,0 +1,85 @@
+{
+  "stats": {
+    "suites": 0,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-11-16T13:48:33.561Z",
+    "end": "2022-11-16T13:48:43.761Z",
+    "duration": 10200,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "40e7fb9d-cd42-4b7a-8056-29ff942c562b",
+      "title": "",
+      "fullFile": "cypress/integration/Test1.spec.js",
+      "file": "cypress/integration/Test1.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [
+        {
+          "title": "website",
+          "fullTitle": "website",
+          "timedOut": null,
+          "duration": 7404,
+          "state": "passed",
+          "speed": "medium",
+          "pass": true,
+          "fail": false,
+          "pending": false,
+          "context": null,
+          "code": "cy.visit('https://demo.nopcommerce.com/'); // searchBox = '#small-searchterms'\ncy.get('#small-searchterms').type('macbook{enter}');\ncy.contains('MacBook', {\n  timeoput: 6000\n}).should('be.visible').click();",
+          "err": {},
+          "uuid": "6ad1459f-21e9-4a49-9731-29799bad87ce",
+          "parentUUID": "40e7fb9d-cd42-4b7a-8056-29ff942c562b",
+          "isHook": false,
+          "skipped": false
+        }
+      ],
+      "suites": [],
+      "passes": [
+        "6ad1459f-21e9-4a49-9731-29799bad87ce"
+      ],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 7404,
+      "root": true,
+      "rootEmpty": false,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/results",
+        "html": false,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}

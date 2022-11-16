@@ -1,0 +1,30 @@
+{
+  "name": "cypressproject1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muskanshrma/CypressProject1.git"
+  },
+  "author": "Muskan Sharma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/muskanshrma/CypressProject1/issues"
+  },
+  "homepage": "https://github.com/muskanshrma/CypressProject1#readme",
+  "devDependencies": {
+    "cypress": "^9.7.0",
+    "cypress-mochawesome-reporter": "^3.2.3",
+    "cypress-xpath": "^2.0.1",
+    "mocha": "^10.1.0",
+    "mochawesome": "^7.1.3",
+    "mochawesome-merge": "^4.2.1"
+  },
+  "dependencies": {
+    "mochawesome-report-generator": "^6.2.0"
+  }
+}
